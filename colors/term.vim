@@ -27,6 +27,8 @@ hi  SpecialKey  ctermfg=0
 hi  Statement   ctermfg=3     
 hi  Normal      ctermfg=7     
 
+let g:limelight_conceal_ctermfg=242
+
 "   Spell                                                 
 hi  SpellBad  ctermfg=9  ctermbg=none
 
