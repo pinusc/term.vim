@@ -22,7 +22,8 @@ hi  Comment     ctermfg=gray       ctermbg=none  cterm=none
 "   Code                                                  
 hi  Folded      ctermfg=Gray  ctermbg=none  cterm=none
 hi  FoldColumn  ctermfg=8     ctermbg=none  cterm=none
-hi  NonText     ctermfg=8                   
+hi  NonText     ctermfg=8
+hi  Ignore     ctermfg=0
 hi  SpecialKey  ctermfg=0     
 hi  Statement   ctermfg=3     
 hi  Normal      ctermfg=7     
@@ -76,3 +77,6 @@ hi  link        NeoMakeInfo     WarningMsg
 "   Spelling/syntastic                                    
 hi  SpellBad  ctermfg=red  ctermbg=none  cterm=none
 hi  SpellCap  ctermfg=red  ctermbg=none  cterm=none
+
+" Complete
+hi Pmenu ctermfg=cyan ctermbg=none
